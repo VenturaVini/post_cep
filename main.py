@@ -38,5 +38,5 @@ while True:
     except Exception as e:
         print(e)
         print('Tentando novamente')
-        contar_regressiva(30)
+
         
