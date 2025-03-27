@@ -32,9 +32,8 @@ while True:
     try:
         cep = criador_cep_aleatorio()
         print(cep)
-        contar_regressiva(30)
+        contar_regressiva(60)
         print(post_cep(cep))
-        # print(post_cep)
     except Exception as e:
         print(e)
         print('Tentando novamente')
