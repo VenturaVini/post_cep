@@ -1,0 +1,29 @@
+# Arquivos compilados
+__pycache__/
+*.py[cod]
+
+# Arquivos de ambiente virtual
+venv/
+env/
+*.env
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos de logs
+*.log
+
+# Arquivos de banco de dados SQLite
+*.sqlite3
+
+# Arquivos temporários de sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache de pacotes
+*.egg-info/
+.eggs/
+dist/
+build/
