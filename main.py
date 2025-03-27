@@ -24,7 +24,7 @@ def criador_cep_aleatorio():
         'Content-Type': 'application/x-www-form-urlencoded'
     }
     response = requests.request("POST", url, headers=headers, data=payload)
-    print(response.text)
+    # print(response.text)
     return response.text.split('class="output-txt"><span>')[1][:9].replace('-', '')
 
 # Executor
